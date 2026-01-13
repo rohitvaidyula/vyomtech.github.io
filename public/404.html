@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Redirecting...</title>
+    <script>
+      // GitHub Pages SPA redirect workaround
+      // Encodes the path in query string and redirects to index.html
+      const path = window.location.pathname;
+      const search = window.location.search;
+      const hash = window.location.hash;
+      const redirectUrl =
+        window.location.origin +
+        '/?p=' +
+        encodeURIComponent(path + search + hash);
+      window.location.replace(redirectUrl);
+    </script>
+  </head>
+  <body>
+    <p>Redirecting...</p>
+  </body>
+</html>

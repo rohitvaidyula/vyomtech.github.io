@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#005B5F" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700&family=Sora:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <title>VyomTech — AI Consulting & Product Studio</title>
+    <meta name="description" content="VyomTech is a premium AI consulting and product studio specializing in production AI systems, LLM development, RAG implementation, and intelligent agents." />
+    <!-- GitHub Pages SPA routing: restore path from 404.html redirect -->
+    <script>
+      (function () {
+        var redirect = sessionStorage.redirect;
+        delete sessionStorage.redirect;
+        if (redirect && redirect !== location.href) {
+          history.replaceState(null, null, redirect);
+        } else {
+          var params = new URLSearchParams(window.location.search);
+          var p = params.get('p');
+          if (p) {
+            params.delete('p');
+            var newSearch = params.toString();
+            var newUrl = p + (newSearch ? '?' + newSearch : '');
+            history.replaceState(null, null, newUrl);
+          }
+        }
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <rect width="1200" height="630" fill="#005B5F"/>
+  
+  <!-- Logo -->
+  <g transform="translate(100, 240)">
+    <rect width="80" height="80" rx="10" fill="#FFFFFF"/>
+    <path d="M20 20L40 60L60 20" stroke="#005B5F" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <circle cx="40" cy="30" r="5" fill="#D9A240"/>
+  </g>
+  
+  <!-- Text -->
+  <text x="200" y="280" font-family="system-ui, -apple-system, sans-serif" font-size="64" font-weight="700" fill="#FFFFFF">
+    VyomTech
+  </text>
+  <text x="200" y="330" font-family="system-ui, -apple-system, sans-serif" font-size="28" fill="#FFFFFF" opacity="0.8">
+    AI Consulting &amp; Product Studio
+  </text>
+  
+  <!-- Tagline -->
+  <text x="100" y="480" font-family="system-ui, -apple-system, sans-serif" font-size="24" fill="#D9A240">
+    Production AI systems that actually ship.
+  </text>
+  
+  <!-- Subtle accent line -->
+  <rect x="100" y="520" width="200" height="3" fill="#D9A240" rx="1.5"/>
+</svg>
